@@ -9,7 +9,7 @@ export const Navbar = ({ theme, setTheme }) => {
             <div className={`text-gray-700 dark:text-white sm:text-sm ${sideBarOpen ? 'max-sm:w-60 max-sm:pl-10' : 'max-sm:w-0'} overflow-hidden max-sm:fixed top-0 bottom-0 right-0 max-sm:min-h-screen max-sm:h-full max-sm:flex-col max-sm:bg-primary max-sm:text-white max-sm:pt-20 flex sm:items-center gap-5 transition-all `}>
                 <img src={assets.close_icon} alt="ci" className='w-5 absolute right-4 top-4 sm:hidden cursor-pointer' onClick={() => { setSideBarOpen(false) }} />
                 <a href="" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Home</a>
-                <a href="" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Services</a>
+                <a href="#services" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Services</a>
                 <a href="" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Our Work</a>
                 <a href="" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Contact Us</a>
             </div>
