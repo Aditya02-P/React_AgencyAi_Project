@@ -10,8 +10,8 @@ export const Navbar = ({ theme, setTheme }) => {
                 <img src={assets.close_icon} alt="ci" className='w-5 absolute right-4 top-4 sm:hidden cursor-pointer' onClick={() => { setSideBarOpen(false) }} />
                 <a href="" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Home</a>
                 <a href="#services" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Services</a>
-                <a href="" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Our Work</a>
-                <a href="" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Contact Us</a>
+                <a href="#ourwork" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Our Work</a>
+                <a href="#contact" onClick={() => setSideBarOpen(false)} className='hover:border-b'>Contact Us</a>
             </div>
             <div className='flex items-center gap-2 sm:gap-4'>
                 <Themetglbtn theme={theme} setTheme={setTheme} ></Themetglbtn>

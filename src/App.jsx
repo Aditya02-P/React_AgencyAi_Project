@@ -5,6 +5,7 @@ import TrustedBy from './components/TrustedBy';
 import Services from './components/Services';
 import Ourwork from './components/Ourwork';
 import Teams from './components/Teams';
+import Contact from './components/Contact';
 const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'dark');
 
@@ -16,6 +17,7 @@ const App = () => {
       <Services></Services>
       <Ourwork></Ourwork>
       <Teams></Teams>
+      <Contact ></Contact>
     </div>
   )
 }
